@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cats and Dogs</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <main>
+        <header> 
+            <h1>Cats and Dogs NFT</h1> 
+            <a href="/">Back</a>
+        
+        </header>
+        <div class="grid-container" id="imageGrid"></div>
+
+        <div style="text-align: center; margin-top: 4rem;">
+            <a href="/">Shuffle</a>
+        </div>
+        
+    </main>
+    
+    <script>
+        window.onload = function() {
+    const imageGrid = document.getElementById('imageGrid');
+
+    // Assuming you have 1000 images numbered from 1 to 1000
+    const totalImages = 1000;
+    for (let i = 1; i <= totalImages; i++) {
+        const imageFilename = `images/img${i}.png`;
+        const imgElement = document.createElement('img');
+        imgElement.src = imageFilename;
+        imgElement.alt = `Image ${i}`;
+        const gridItem = document.createElement('div');
+        gridItem.classList.add('grid-item');
+        gridItem.appendChild(imgElement);
+        imageGrid.appendChild(gridItem);
+    }
+};
+
+    </script>
+</body>
+</html>

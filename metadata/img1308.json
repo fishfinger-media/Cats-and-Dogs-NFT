@@ -1,0 +1,32 @@
+{
+  "name": "Cats and Dogs #1308",
+  "description": "The Cats and Dogs weather app NFT",
+  "image": "https://fishfinger.me/images/img1308.png",
+  "attributes": [
+    {
+      "trait_type": "Background",
+      "value": "Background1",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Body",
+      "value": "Body-Common_48",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Hat",
+      "value": "Hats-Common_30",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Paw",
+      "value": "Paws-Common_16",
+      "rarity": "Common"
+    },
+    {
+      "trait_type": "Tounge",
+      "value": "tounge",
+      "rarity": "None"
+    }
+  ]
+}
